@@ -1,4 +1,5 @@
 import './globals.css'
+// import Web3Providers from '@/app/components/Web3Providers';
 
 export const metadata = {
   title: "Lucky Next App",
@@ -9,7 +10,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        {/* <Web3Providers> */}
+          {children}
+        {/* </Web3Providers> */}
       </body>
     </html>
   );
